@@ -1,0 +1,36 @@
+.ProductCards{
+    margin: 0.2rem;
+
+    width: 175px;
+    height: 250px;
+
+    background-color: rgb(60, 88, 69);
+    border-radius: 10px;
+    border: white solid 1px;
+
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    display: flex;
+}
+
+div label{
+    display: flex;
+    
+    font-size: 24px;
+
+    padding: 10px;
+
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.name{
+    font-size: 30px;
+}
