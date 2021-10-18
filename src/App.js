@@ -33,9 +33,9 @@ function App() {
     if(currentSale.length === 0){
       setCurrentSale([...currentSale, newArr[0]]);
 
-    } else if (currentSale.includes(newArr) === false){
+    } else if (currentSale.includes(newArr[0]) === false){
 
-      setCurrentSale([...currentSale, newArr]);
+      setCurrentSale([...currentSale, newArr[0]]);
     }
 
     console.log(newArr[0].id)
